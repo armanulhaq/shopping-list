@@ -61,6 +61,6 @@ function appendItemToShoppingListEl(item) {
 
         remove(exactLocationOfItemInDB)
     })
-
-    shoppingListEl.append(newEl)
+    if(itemValue != "")
+        shoppingListEl.append(newEl)
 }

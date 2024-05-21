@@ -57,6 +57,10 @@ img {
     width: 70vw;
 }
 
+#shopping-list {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
